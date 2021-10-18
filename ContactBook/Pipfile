@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+SQLAlchemy = "*"
+uvicorn = "*"
+asyncpg = "*"
+alembic = "*"
+
+[dev-packages]
+ipython = "*"
+ipdb = "*"
+autopep8 = "*"
+pylint = "*"
+pylint-pydantic = "*"
+
+[requires]
+python_version = "3.9"
